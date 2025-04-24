@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "packages/container/**"
+  workflow_dispatch:  # Enable manual trigger from the GitHub UI
 
 defaults:
   run:
