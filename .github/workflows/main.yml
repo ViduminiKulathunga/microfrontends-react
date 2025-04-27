@@ -21,7 +21,7 @@ jobs:
       - run: npm install
       - run: npm run build
         env:
-          production_domain: ${{ secrets.PRODUCTION_DOMAIN }}
+          production-domain: ${{ secrets.PRODUCTION_DOMAIN }}
 
       - name: Configures AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
